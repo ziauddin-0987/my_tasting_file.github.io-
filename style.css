@@ -1,0 +1,53 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f2e8e8;
+}
+.input_box {
+  background-color: #ffffff;
+  position: relative;
+  /* padding-left: 50px; */
+  width: 28%;
+  height: 25rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 2px rgb(238, 235, 235);
+}
+#pass {
+  position: absolute;
+  left: 1.7rem;
+  top: 7rem;
+}
+#email {
+  top: 2rem;
+  position: absolute;
+
+  left: 1.7rem;
+}
+
+#pass,
+#email {
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  box-shadow: 1px 1px 2px 2px rgb(238, 235, 235);
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  width: 70%;
+  height: 0.4rem;
+  padding: 20px;
+}
+#sub {
+  width: 7rem;
+  height: 2rem;
+  position: absolute;
+  left: 6.5rem;
+  top: 18rem;
+}
